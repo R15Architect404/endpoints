@@ -1,1 +1,3 @@
-getfenv().UserId = "3605330784"
+getfenv().UserId = function()
+	return "3605330784"
+end
