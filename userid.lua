@@ -1,8 +1,3 @@
-getfenv().UserId = function(userid)
-	if userid == "3605330784" then
+getfenv().Enabled = function(userid)
 		return true
-	else
-		return false
-	end
-		
 end
